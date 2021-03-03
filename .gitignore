@@ -1,0 +1,29 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.dylib
+*.swp
+*.swo
+.DS_Store
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Credentials Files
+credentials.json
+client_config.json
+build/gb-api
+build/gb-api.linux
+build/gb-cli
+.vscode/
+.tool-versions
+build/gb-cli.linux
+config/token.json
+.idea
+/.env
